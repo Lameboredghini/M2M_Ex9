@@ -45,6 +45,7 @@ def return_all_data():
       "light":light,
       "humidity":humidity
    }
+   print(data)
    return jsonify(data)
 
 
